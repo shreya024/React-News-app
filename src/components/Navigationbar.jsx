@@ -5,12 +5,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Navigationbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/React-News-app">
         <img src={logo} alt="" width="80" height="40" className="d-inline-block align-text-top" />Top News</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/React-News-app">Home</Nav.Link>
           <Nav.Link href="/headlines">Headlines</Nav.Link>
           <Nav.Link href="/search">Search News</Nav.Link>
           <Nav.Link href="/latest">Latest News</Nav.Link>

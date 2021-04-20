@@ -20,7 +20,7 @@ import Search from './components/Search';
 import Home from './components/Home';
 import Container from 'react-bootstrap/Container';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
           
             
               <Switch>
-                <Route path="/" exact component={Home} />
+                <Route path="/React-News-app" exact component={Home} />
               </Switch>
               <Switch>
                 <Route path="/headlines" component={Headlines} />
